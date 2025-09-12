@@ -14,6 +14,8 @@ public class Historial{
         }
 
         System.out.println("Retrocede una pagina: " + paginas.pop());
+
+        System.out.println("Pagina actual: " + paginas.peek());
         
         
 
