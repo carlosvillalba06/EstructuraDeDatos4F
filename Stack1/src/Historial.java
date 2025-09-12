@@ -1,5 +1,8 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class Historial{
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+
+    Deque <String> historialDeNavegacion = new ArrayDeque<>();
+
 }
