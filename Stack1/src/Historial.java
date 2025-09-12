@@ -13,6 +13,12 @@ public class Historial{
             System.out.println(pagina);
         }
 
+        System.out.println("Retrocede una pagina: " + paginas.pop());
+        
+        
+
+
+
     }
 
 
