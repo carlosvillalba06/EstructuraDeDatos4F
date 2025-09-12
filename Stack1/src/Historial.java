@@ -17,6 +17,7 @@ public class Historial{
 
         System.out.println("Pagina actual: " + paginas.peek());
         
+        paginas.push("https://Classroom.com");
         
 
 
