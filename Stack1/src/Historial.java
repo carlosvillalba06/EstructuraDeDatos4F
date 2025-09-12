@@ -8,6 +8,11 @@ public class Historial{
         paginas.push("https://Google.com");
         paginas.push("https://Facebook.com");
         paginas.push("https://Youtube.com");
+
+        for(String pagina: paginas){
+            System.out.println(pagina);
+        }
+
     }
 
 
