@@ -3,6 +3,14 @@ import java.util.Deque;
 
 public class Historial{
 
-    Deque <String> historialDeNavegacion = new ArrayDeque<>();
+    public static void main(String[] args) {
+        Deque<String> paginas = new ArrayDeque<>();
+        paginas.push("https://Google.com");
+        paginas.push("https://Facebook.com");
+        paginas.push("https://Youtube.com");
+    }
+
+
+
 
 }
