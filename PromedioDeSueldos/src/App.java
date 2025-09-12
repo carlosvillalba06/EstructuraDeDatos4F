@@ -8,6 +8,7 @@ public class App {
 
         List<Worker> trabajadores = new ArrayList<>();
 
+      
         trabajadores.add(new Worker(1, "Carlos", 2000.40));
         trabajadores.add(new Worker(2, "Ricardo", 3000.70));
         trabajadores.add(new Worker(3, "Pedro", 400.40));
