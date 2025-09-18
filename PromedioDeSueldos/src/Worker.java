@@ -11,8 +11,6 @@ public class Worker {
         this.sueldo = sueldo;
 
     }
-
-
     public int getId(){
 
         return id;

@@ -17,18 +17,13 @@ public class App {
         trabajadores.add(new Worker(6, "Kevin", 600.40));
 
         for(Worker trabajador : trabajadores){
-
             System.out.println("ID: " + trabajador.getId() + " Nombre: " + trabajador.getNombre() + " Sueldo: " + trabajador.getSueldo());
-
             suma = suma + trabajador.getSueldo();
         }
 
         System.out.println(" ");
-
         promedio = suma / 6;
         System.out.println("Promedio de sueldos: " + promedio);
-
-
         int i = 0;
         while (i < trabajadores.size()){
             if(trabajadores.get(i).getSueldo() < 1000){
