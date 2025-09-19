@@ -11,7 +11,14 @@ public class App {
 
         int n = 5;
 
-        System.out.println("La suma es: " + suma(n));
+        System.out.print("La suma es: ");
+
+        for(int i = 0; i <= n ; i++){
+
+            System.out.print( i + " ");
+        }
+
+        System.out.println(suma(n));
         
         
     }
