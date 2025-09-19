@@ -4,9 +4,12 @@ public class App {
         if (cadena.isEmpty()) return cadena;
         return invertirCadena(cadena.substring(1)) + cadena.charAt(0);
     }
-    
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
+        String cadenaOriginal = "Hola";
+
+        System.out.println("Cadena sin invertir: " + cadenaOriginal);
     }
 }
 
