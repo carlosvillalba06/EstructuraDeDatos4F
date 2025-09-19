@@ -18,7 +18,7 @@ public class App {
             System.out.print( i + " ");
         }
 
-        System.out.println(suma(n));
+        System.out.println(" = " + suma(n));
         
         
     }
