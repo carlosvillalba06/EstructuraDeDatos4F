@@ -10,6 +10,8 @@ public class App {
         String cadenaOriginal = "Hola";
 
         System.out.println("Cadena sin invertir: " + cadenaOriginal);
+
+        System.out.println("Cadena invertida: " + invertirCadena(cadenaOriginal));
     }
 }
 
