@@ -8,10 +8,12 @@ public class App {
         return a * potencia(a, b - 1);
     }
 
-
-
     public static void main(String[] args) throws Exception {
         int a = 5;
-        int b = 2; 
+        int b = 2;
+        
+        int res = potencia(a, b);
+
+        System.out.println("EL resultado de " + a + " ^ " + b + " es:" + res);
     }
 }
