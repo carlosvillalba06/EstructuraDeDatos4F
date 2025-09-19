@@ -7,9 +7,11 @@ public class App {
         return n + suma(n - 1);
 
     }
-
-
      public static void main(String[] args) throws Exception {
+
+        int n = 5;
+
+        System.out.println("La suma es: " + suma(n));
         
         
     }
