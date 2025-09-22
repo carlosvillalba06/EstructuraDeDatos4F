@@ -1,0 +1,22 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Cliente {
+
+    int id;
+    String nombre;
+    Deque<String> documentos;
+
+
+    public Cliente(int id, String nombre){
+        this.id = id;
+        this.nombre = nombre;
+        documentos = new ArrayDeque<>();
+    }   
+
+    
+    public void agregarDocumento(String doc){
+        documentos.push(doc);
+    }
+
+}
