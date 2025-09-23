@@ -14,7 +14,6 @@ public class ListaMaterias {
         materias.add(materia);
         
     }
-
     public boolean contiene(String materia){
         for (String mate : materias) {
             if (mate.equals(materia)) 
@@ -25,6 +24,10 @@ public class ListaMaterias {
         }
 
         return false;
+    }
+
+     public void imprimir(){
+        System.out.println("Materias: " + materias);
     }
 
 
