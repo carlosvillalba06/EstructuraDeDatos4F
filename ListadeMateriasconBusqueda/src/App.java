@@ -13,7 +13,7 @@ public class App {
         System.out.println("Busqueda: " + buscarMateria);
 
         if (lista.contiene(buscarMateria)){
-            System.out.println("Resulatdo: Materia enocntrada");
+            System.out.println("Resulatdo: Materia encontrada");
         }else{
             System.out.println("Resultado: Materia no encontrada");
         }
