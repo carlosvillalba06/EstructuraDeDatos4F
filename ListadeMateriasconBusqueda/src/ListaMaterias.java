@@ -15,4 +15,18 @@ public class ListaMaterias {
         
     }
 
+    public boolean contiene(String materia){
+        for (String mate : materias) {
+            if (mate.equals(materia)) 
+            {
+                return true;
+            }
+            
+        }
+
+        return false;
+    }
+
+
+
 }
