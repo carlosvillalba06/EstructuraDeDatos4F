@@ -6,5 +6,16 @@ public class App {
         lista.agregarMateria("Quimica");
         lista.agregarMateria("Historia");
         lista.agregarMateria("Programacion");
+
+        lista.imprimir();
+
+        String buscarMateria = "Calculo diferencial";
+        System.out.println("Busqueda: " + buscarMateria);
+
+        if (lista.contiene(buscarMateria)){
+            System.out.println("Resulatdo: Materia enocntrada");
+        }else{
+            System.out.println("Resultado: Materia no encontrada");
+        }
     }
 }
