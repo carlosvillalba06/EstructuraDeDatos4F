@@ -26,7 +26,7 @@ public class ListaMaterias {
         return false;
     }
 
-     public void imprimir(){
+    public void imprimir(){
         System.out.println("Materias: " + materias);
     }
 
