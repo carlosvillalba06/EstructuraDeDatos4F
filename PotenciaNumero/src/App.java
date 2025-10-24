@@ -12,7 +12,7 @@ public class App {
         int a = 5;
         int b = 2;
         
-        int res = potencia(a, b);
+        int res = potencia(a,b);
 
         System.out.println("EL resultado de " + a + " ^ " + b + " es:" + res);
     }

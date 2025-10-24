@@ -17,7 +17,6 @@ public class SinglyLinkedList {
 
         current.next = newNode;
     }
-
     public void printList(){
         Node current  = head;
         while (current != null) {

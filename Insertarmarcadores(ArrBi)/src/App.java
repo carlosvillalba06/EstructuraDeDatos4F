@@ -17,6 +17,7 @@ public class App {
             }
             System.out.println();
         }
+        
         int[][] arregloSalida = new int[arregloEntrada.length][];
 
         for (int i = 0; i < arregloEntrada.length; i++){

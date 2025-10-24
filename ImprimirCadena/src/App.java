@@ -14,4 +14,3 @@ public class App {
         System.out.println("Cadena invertida: " + invertirCadena(cadenaOriginal));
     }
 }
-
