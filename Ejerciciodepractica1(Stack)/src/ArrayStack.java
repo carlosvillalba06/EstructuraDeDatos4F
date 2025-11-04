@@ -72,29 +72,32 @@ public class ArrayStack<T> implements IStack<T> {
 
     
 public boolean isPalindrome(String text) {
+    String mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    String minusculas = "abcdefhgijklmnopqrstuvwxyz"; 
     String limpiarTexto = "";
+
     for (int i = 0; i < text.length(); i++) {
         char c = text.charAt(i);
         if (c != ' ') { 
+            for (int j = 0; j < mayusculas.length(); j++) {
+                if (c == mayusculas.charAt(j)) {
+                    c = minusculas.charAt(j);
+                    break;
+                }
+                
+            }
             limpiarTexto += c;
         }
     }
-
     ArrayStack<Character> pila = new ArrayStack<>(limpiarTexto.length());
-
     for (int i = 0; i < limpiarTexto.length(); i++) {
         pila.push(limpiarTexto.charAt(i));
     }
-
     for (int i = 0; i < limpiarTexto.length(); i++) {
         if (limpiarTexto.charAt(i) != pila.pop()) {
             return false;
         }
     }
-
     return true;
 }
-
-
-
 }
