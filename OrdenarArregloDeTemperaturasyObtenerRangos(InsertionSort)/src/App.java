@@ -18,18 +18,18 @@ public class App {
         System.out.println("Rango: " + (temperaturaMaxima - temperaturaMinima));
 
 
-        System.out.println("top 3 Bajas -> ");
+        System.out.println("top 3 Bajas ");
         for (int i = 0; i < arrTemperaturas.length; i++) {
             if (i < 3) {
-                System.out.print(arrTemperaturas[i]);
+                System.out.println(arrTemperaturas[i]);
             }
             
         }
-        System.out.println("top 3 altas -> ");
+        System.out.println("top 3 altas ");
         int posicion = 0 ;
         int n = arrTemperaturas.length;
         for (int i = n - 1; i >= 0 && posicion < 3;i--) {
-            System.out.print(arrTemperaturas[i]);
+            System.out.println(arrTemperaturas[i]);
             posicion++;
         }
     }
