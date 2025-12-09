@@ -65,7 +65,7 @@ public class SortController {
 
 
 
-    @PostMapping("/cano")
+    @PostMapping("/carlos")
     public ResponseEntity<?> postMethodName(@RequestBody CarlosRequest request) {
         //TODO: process POST request
         
